@@ -1,0 +1,29 @@
+¿Que es un Framework FrontEnd o Framework CSS?
+
+Son una base para empezar un proyecto web permitiendo flexibilidad en el diseño. 
+Organizacion y estructura de nuestro HTML, CSS y JS. Posee una Grilla (Grill) como caracteristica principal, 
+Estilis para las fuentes y componentes visuales pre-armados. Teniendo como meta final el ahorro de tiempo
+En la programacion de un sitioweb, dandonos Componentes visuales testeados. Responsive Desing 
+ademas de asegurarnos que nuestro codigo no va a posee errores.
+
+PROYECTO: TIENDA DE ROPA - VERDI
+
+* TENER LA PAG DE BOOTSTRAP ABIERTA.
+
+LA GRILLA DE BOOSTRAP: 
+container se adapta al ancho de la pantalla
+
+container-fluid usa el 100$ de la pantalla 
+
+Para hacer uso de la Grilla de bootstrap tenemos que usar div class=row a fin de crear una fila 
+en la cual crear las columnas necesarias a fin de crear un diseño responsive.
+
+Ejercicio de 3 col sobre 2 col y resto de ejercicios agregar bordes para visualizacion
+¿Que pasa cuando tengo un ancho fijo en las primeras columnas?
+¿Que pasa si tengo mas de 12 columnas?
+Acumular varias columnas en una misma row y definir 
+
+* col-12 col-lg-3
+
+desafios de la grilla de bootstrap: 
+

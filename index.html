@@ -1,18 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-
+      <div class="container" style="background-color: rgb(154, 37, 37)">
+        <h1>Ejemplo</h1>
+      </div>
+      <div class="container-fluid" style="background-color: rgb(37, 68, 154)">
+        <h1>Ejemplo</h1>
+      </div>
+      <div class="container-md" style="background-color: rgb(39, 154, 37)">
+        <h1>Ejemplo</h1>
+      </div>
     </header>
     <main>
-        <div class="col-lg-8 col-md-6 mb-4">
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col" style="border: black solid 3px">1 of 2</div>
+          <div class="col" style="border: black solid 3px">2 of 2</div>
+        </div>
+        <div class="row">
+          <div class="col" style="border: black solid 3px">1 of 3</div>
+          <div class="col" style="border: black solid 3px">2 of 3</div>
+          <div class="col" style="border: black solid 3px">3 of 3</div>
+        </div>
+        <div class="row">
+          <div class="col-2" style="border: blue solid 3px">1 of 3</div>
+          <div class="col-6" style="border: blue solid 3px">2 of 3</div>
+          <div class="col-4" style="border: blue solid 3px">3 of 3</div>
+        </div>
+        <div class="row">
+          <div class="col-2" style="border: blue solid 3px">1 of 3</div>
+          <div class="col-6" style="border: blue solid 3px">2 of 3</div>
+          <div class="col-4" style="border: blue solid 3px">3 of 3</div>
+          <div class="col-4" style="border: blue solid 3px">3 of 3</div>
+        </div>
+
+        <div class="row">
+          <div class="col-2" style="border: rgb(0, 255, 81) solid 3px">
+            1 of 4
+          </div>
+          <div class="col-11" style="border: rgb(0, 255, 81) solid 3px">
+            1 of 2
+          </div>
+          <div class="col-7" style="border: rgb(0, 255, 81) solid 3px">
+            1 of
+          </div>
+          <div class="col-5" style="border: rgb(0, 255, 81) solid 3px">
+            1 of
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="container">
+        <div class="row row-cols-3">
+          <div class="col-1">Column</div>
+          <div class="col-4">Column</div>
+          <div class="col-5">Column</div>
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row row-cols-auto">
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3" style="border: black solid 2px">
+            Level 1: .col-sm-3
+          </div>
+          <div class="col-sm-9" style="border: black solid 2px">
+            <div class="row">
+              <div class="col-8 col-sm-6" style="border: black solid 2px">
+                Level 2: .col-8 .col-sm-6
+              </div>
+              <div class="col-4 col-sm-6" style="border: black solid 2px">
+                Level 2: .col-4 .col-sm-6
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+      <h1>RESPONSIVE</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12  col-md-6 col-lg-3" style="border: blue solid 3px;">
+            Ejemplo
+          </div>
+          <div class="col-sm-12  col-md-6 col-lg-3" style="border: blue solid 3px;">
+            Ejemplo
+          </div>
+          <div class="col-sm-12  col-md-6 col-lg-3" style="border: blue solid 3px;">
+            Ejemplo
+          </div>
+          <div class="col-sm-12  col-md-6 col-lg-3" style="border: blue solid 3px;">
+            Ejemplo
+          </div>
+        </div>
+      </div>
+      <!--
+      <div class="col-lg-8 col-md-6 mb-4">
             <div class="container">
                 <div class="card" style="width: 18rem;">
                     <img src="/src/11e0c888ca10554cc61dd288ab4fa93e--poster-womens-fashion.jpg" class="card-img-top" alt="...">
@@ -40,12 +154,23 @@
                   </div>
             </div>
         </div>
+        -->
     </main>
-    <footer>
-
-    </footer>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <footer></footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"
+  ></script>
 </html>
