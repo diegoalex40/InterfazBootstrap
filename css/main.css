@@ -24,8 +24,9 @@ https://coolors.co/palette/000814-001d3d-003566-ffc300-ffd60a
     left: 0px;
     right: 0px;
     background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    color: #FFD60A;
 }
+
 
 #text-llamado{
     color: #FFD60A !important;
@@ -63,4 +64,11 @@ https://coolors.co/palette/000814-001d3d-003566-ffc300-ffd60a
 
 }
 
+#evento-marca{
+    background-color: #003566;
+    color: #FFD60A;
+}
 
+#evento-marca img{
+    max-width: 100%;   
+}
