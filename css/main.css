@@ -35,7 +35,7 @@ https://coolors.co/palette/000814-001d3d-003566-ffc300-ffd60a
 }
 
 #header{
-    background-color: #003566;
+    background-color: #000814;
     
 }
 #header a{
@@ -71,4 +71,13 @@ https://coolors.co/palette/000814-001d3d-003566-ffc300-ffd60a
 
 #evento-marca img{
     max-width: 100%;   
+}
+
+#conviertete-en-colaborador{
+    background-color: #003566;
+    color: #FFD60A;
+}
+
+#conviertete-en-colaborador label{
+    color: #000814;
 }
